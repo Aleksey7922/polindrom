@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -7,7 +7,7 @@ void main()
 
 	int number;
 	int reverse = 0;
-	cout << "Ââåäèòå ÷èñëî:"; cin >> number;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:"; cin >> number;
 
 	int buffer = number; 
 
@@ -22,11 +22,11 @@ void main()
 	cout << reverse << endl;
 	if (reverse == number)
 	{
-		cout << "×èñëî ïîëèíäğîì" << endl;
+		cout << "Ğ§Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ¾Ğ»Ğ¸Ğ½Ğ´Ñ€Ğ¾Ğ¼" << endl;
 	}
 	else
 	{
-		cout << "İòî îáû÷íîå ÷èñëî" << endl;
+		cout << "Ğ­Ñ‚Ğ¾ Ğ¾Ğ±Ñ‹Ñ‡Ğ½Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 	}
 }
 
